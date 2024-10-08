@@ -1,0 +1,25 @@
+{
+    "project": "project0",
+    "cluster": "Cluster0",
+    "electableSpecs": {
+      "diskiops": 3250,
+      "ebsVolumeType": "PROVISIONED",
+      "instanceSize": "M30",
+      "NodeCount": 5,
+      "AutoScale": {
+        "MinInstaceSize": "M30",
+        "MaxInstanceSize": "M60"
+      }
+    },
+    "readOnlySpecs": {
+      "NodeCount": 5
+    },
+    "analyticsSpecs": {
+      "NodeCount": 5,
+      "instanceSize": "M30",
+      "AutoScale": {
+        "MinInstaceSize": "M30",
+        "MaxInstanceSize": "M60"
+      }
+    }
+}
