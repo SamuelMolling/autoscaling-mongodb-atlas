@@ -84,7 +84,7 @@ Here are potential use cases for this project:
       "diskiops": 3250,
       "ebsVolumeType": "PROVISIONED",
       "instanceSize": "M30",
-      "Scale": {
+      "AutoScale": {
           "MinInstanceSize": "M30"
       }
   }
